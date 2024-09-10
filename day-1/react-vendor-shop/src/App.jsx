@@ -1,11 +1,16 @@
-import Demo from "./components/Demo"
 
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import Hero from './components/Hero';
 const App=()=>{
   return (
-    <>
-     <h1>Hello</h1>
-     <Demo/>
-    </>
+    <div>
+     <Header/>
+     <Hero/>
+     <Contact/>
+     <Footer/>
+    </div>
   )
 }
 
